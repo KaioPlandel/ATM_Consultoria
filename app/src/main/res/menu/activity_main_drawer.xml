@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_work"
+            android:icon="@drawable/ic_baseline_work_24"
+            android:title="@string/servicos" />
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/ic_baseline_people_24"
+            android:title="@string/clientes" />
+    </group>
+
+    <item android:title="Entre em Contato">
+
+        <menu>
+            <item
+                android:id="@+id/nav_contato"
+                android:icon="@drawable/ic_baseline_perm_phone_msg_24"
+                android:title="@string/contato"/>
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/ic_baseline_menu_book_24"
+                android:title="@string/sobre"/>
+
+        </menu>
+
+
+    </item>
+
+
+</menu>
